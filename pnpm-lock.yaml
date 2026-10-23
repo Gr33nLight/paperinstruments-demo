@@ -8,11 +8,19 @@ importers:
 
   .:
     dependencies:
+      dotenv:
+        specifier: ^18.0.9
+        version: 18.0.9
       openai:
         specifier: ^7.43.0
         version: 7.43.0
 
 packages:
+
+  dotenv@18.0.9:
+    resolution: {integrity: sha512-3fVOW4cB02R066PUSwn8O4TJyz9NckQl7F81blIbaq9jKBm2tSmOKky7ZHIXzGvkVPXCSn6jkpziBPZdGFs8Tw==}
+    engines: {node: '>=12'}
+    hasBin: true
 
   openai@7.43.0:
     resolution: {integrity: sha512-fBjKaDFG8AVfkGYoIo/E+xNRlNk7nx2nQ9GoQtXfePzPjg4QcT6nejkhXayJnEwSpFGfthOrAPI2KXj5yAqg9A==}
@@ -42,5 +50,7 @@ packages:
         optional: true
 
 snapshots:
+
+  dotenv@18.0.9: {}
 
   openai@7.43.0: {}
